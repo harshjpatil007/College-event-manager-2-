@@ -4,6 +4,133 @@ padding:0;
 box-sizing:border-box;
 font-family:'Orbitron', sans-serif;
 }
+/* LOGIN PAGE STYLING */
+
+body{
+
+background: radial-gradient(circle at top,#0f172a,#020617);
+color:white;
+
+}
+
+/* CENTER LOGIN BOX */
+
+.container{
+
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+}
+
+/* LOGIN CARD */
+
+.form-box{
+
+background:linear-gradient(145deg,#0f172a,#020617);
+
+padding:40px;
+
+width:320px;
+
+border-radius:15px;
+
+box-shadow:0 0 30px rgba(0,255,255,0.3);
+
+text-align:center;
+
+transition:0.4s;
+
+}
+
+.form-box:hover{
+
+box-shadow:0 0 40px rgba(0,255,255,0.6);
+
+}
+
+/* INPUT FIELDS */
+
+input{
+
+width:100%;
+
+padding:12px;
+
+margin:12px 0;
+
+border:none;
+
+border-radius:6px;
+
+background:#020617;
+
+color:white;
+
+border:1px solid #00f2ff;
+
+outline:none;
+
+transition:0.3s;
+
+}
+
+input:focus{
+
+box-shadow:0 0 10px #00f2ff;
+
+}
+
+/* BUTTON */
+
+button{
+
+width:100%;
+
+padding:12px;
+
+margin-top:15px;
+
+border:none;
+
+border-radius:6px;
+
+background:#00f2ff;
+
+color:black;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+background:white;
+
+transform:scale(1.05);
+
+}
+
+/* REGISTER LINK */
+
+span{
+
+color:#00f2ff;
+
+cursor:pointer;
+
+}
+
+span:hover{
+
+text-decoration:underline;
+
+}
 
 body{
 
