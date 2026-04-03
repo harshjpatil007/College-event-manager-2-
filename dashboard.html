@@ -2,8 +2,11 @@
 <html>
 <head>
 
-<title>Dashboard</title>
+<title>College Event Dashboard</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
 
@@ -11,18 +14,35 @@
 
 <header>
 
-<h1>College Event Dashboard</h1>
+<h1>College Event Manager</h1>
 
-<a href="event.html">Organize Event</a>
+<nav>
+<a href="#">Home</a>
+<a href="#">Events</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
 
 </header>
+
+
+
+<section class="hero">
+
+<h2>College Event Dashboard</h2>
+<p>Explore exciting technical and cultural events happening in the campus</p>
+
+</section>
+
 
 
 <section class="events">
 
 <h2>Upcoming Events</h2>
 
-<div class="card">
+<div class="card-container">
+
+<div class="event-card">
 
 <h3>AI Hackathon</h3>
 <p>Date: 15 May</p>
@@ -30,11 +50,14 @@
 
 </div>
 
-<div class="card">
+
+<div class="event-card">
 
 <h3>Poster Competition</h3>
 <p>Date: 20 May</p>
-<p>Venue: PC RAY HALL</p>
+<p>Venue: PC Ray Hall</p>
+
+</div>
 
 </div>
 
@@ -42,58 +65,28 @@
 
 
 
-<section class="past-events">
+<section class="events">
 
 <h2>Past Events</h2>
 
-<div class="event-container">
+<div class="card-container">
 
 <a href="https://debuggers-club.vercel.app/" target="_blank" class="event-card">
 
-<img src="images/debuggers.jpg" alt="Debuggers Club">
+<img src="images/debuggers.jpg">
 
-<div class="event-info">
-<h3>Debuggers Club Event</h3>
-<p>Explore the Debuggers Club activities and competitions.</p>
-<button>View Event</button>
-</div>
+<h3>Debuggers Club</h3>
 
 </a>
 
 
 <a href="https://telekinesis2k26.netlify.app/" target="_blank" class="event-card">
 
-<img src="images/telekinesis.jpg" alt="Telekinesis">
+<img src="images/telekinesis.jpg">
 
-<div class="event-info">
 <h3>Telekinesis 2K26</h3>
-<p>Annual technical festival with exciting events.</p>
-<button>View Event</button>
-</div>
 
 </a>
-
-</div>
-
-</section>
-
-<section class="coordinators">
-
-<h2>Our Coordinators</h2>
-
-<div class="profile">
-
-<img src="images/principal.jpg">
-
-<h3>Principal Sir Dr. Keshav Nandurkar </h3>
-
-</div>
-
-<div class="profile">
-
-<img src="images/hod.jpg">
-
-<h3>HOD. Dr anuradha pawar </h3>
 
 </div>
 
@@ -105,8 +98,9 @@
 
 <h3>Contact Us</h3>
 
-<p>Phone: 766042529</p>
-<p>Email: harshjpatil007@gmail.com</p>
+<p>Phone : 7666042529</p>
+
+<p>Email : harshjpatil007@gmail.com</p>
 
 </footer>
 
